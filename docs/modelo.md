@@ -1,3 +1,4 @@
+```mermaid
 classDiagram
     class Produto {
         <<class>>
@@ -38,3 +39,5 @@ classDiagram
 
     Catalogo "1" o-- "*" Produto : armazena
     Orcamento "1" o-- "*" ItemCesta : controla
+
+  ```
